@@ -14,53 +14,71 @@ A lightweight, customizable offline music player for Windows, built with Electro
 
 Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M4A, WAV, AAC, and more. It also supports embedded and LRC-based plain-text, synchronized, and word-level karaoke lyrics.
 
-> Novera is currently in early development. Some icons, visuals, and features are still being refined.
+> Novera is currently in early development and does not yet have a downloadable build ready. Some icons, visuals, and features are still being refined (see below for list).
 
-- Active synced-lyric line shown in the now-playing bar
-- Custom themes with user-defined colors and fonts
-- Album art and artist artwork overrides
-- Automatic artwork importing from folders
+## Functional features
+
+- Audio file playback with support for importing multiple directories for music library
+- Togglable synced-lyric display in now playing bar for active line
+- Four built-in themes: **Light, Dark, Black / AMOLED, and Dynamic** (changes colors to match album art)
+- Ability to customize built-in themes' with custom RGB colors (not available on Dynamic theme), and custom fonts 
+- Ability to override default album art and artist artwork with custom images
+- Automatic album and artist artwork importing from folders
 - Customizable artist and genre separators
 - Writable artist descriptions
 - Custom-mappable keyboard shortcuts
-- Offline-first desktop music playback
 - Discord Rich Presence
+- Toggle to keep the screen awake while app is in focus
+- Toggleable "smart search" function that adds autocomplete to search, and a top-results section showing the most relevant matches
+- Fully functional playlist creation and management with ability to export/import playlists as M3U
+- Setting to restore queue and actively playing song from last close on app open
+- Setting to automatically resume/play restored song on app open if this setting is enabled
 
 ## Planned Features (WIP)
 
+- A couple colorful custom theme presets
+- Custom background images for custom themes
+- Ability to import and export custom themes, with shared community themes accessible to import through linked Discord Server
+- Further theme customization options
+- Ability to use custom icon packs as part of custom themes
+- Album-art blur theme
+- Further UI polish and visual tweaks
 - Fullscreen player view
-- Metadata editor
-- Lyric editor with synchronized and karaoke lyric tools
-- Music video support
+- YouTube Music-style maximized player view
 - Pop-out now-playing window
-- Visualizer support
-- Custom HTML/CSS embeds
-- Peace Equalizer and Equalizer APO integration
-- Automixes
-- MusicBrainz release-type support for albums, EPs, singles, and more
-- Album-art blur themes
-- Optional right-hand sidebar
-- Resizable player panels
-- Minimized left sidebar
-- Smart search
-- Importable and exportable custom themes
-- Advanced theme customization options
-- Context menus for queue management
-- Add-to-queue and play-next actions
+- Visualizer support with customizable theming
+- Optional right-hand sidebar with media controls like Spotify
+- Resizable player panels and sidebar
+- Ability to minimize left sidebar
 - Customizable home page and sidebar layouts
+- Minimize-to-system-tray support
+- Media controls in the notification area
+- Media buttons in the application window preview on hover
+- An option to respect the Windows light/dark theme when scheduling automatic theme changes, unless a custom or dynamic theme is activated
+- An option to launch the application at system startup
+- Ability to export/import app settings
+- An option to adjust the fade duration when pausing/resuming playback
+- A toggle for gapless playback
+- Music video support
+- Custom HTML/CSS embeds
+- Equalizer button to open Peace Equalizer/Equalizer APO window
+- Automixes based on your listening habits and genre tags
+- Metadata editor
+- Lyric editor with powerful synchronized and karaoke lyric tools
+- MusicBrainz release-type support for albums, EPs, singles, and more
+- A "Featured on" section on artist pages for songs featuring the artist where the associated album is not tagged with the artist as an album artist
+- Setting to hide "- Single" and "- EP" from album names if written into album metadata
+- Ability to capture the current queue and save it as a playlist
+- Ability to choose custom playlist image from file
+- ListenBrainz & Last.fm integration
+- Listening stats
+- About/credits page
 
 ## Development Status
 
-Novera is still in early production and is not yet ready for general release. The interface and feature set are actively being developed, and placeholder icons or artwork may be present in the current build.
+Novera is still in early production and is not yet ready for general release. The interface and feature set are actively being developed, and placeholder icons or artwork are present.
 
-The project will be published as free and open-source (FOSS) software on GitHub once it is ready.
-
-## Technology
-
-- Electron
-- Chromium audio engine
-- JavaScript/TypeScript
-- GitHub Copilot-assisted development
+The project will be published as free and open-source (FOSS) software at this repository once it is ready.
 
 ## License
 
