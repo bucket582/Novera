@@ -27,12 +27,14 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - Customizable artist and genre separators
 - Writable artist descriptions
 - Custom-mappable keyboard shortcuts
-- Discord Rich Presence
 - Toggle to keep the screen awake while app is in focus
 - Toggleable "smart search" function that adds autocomplete to search, and a top-results section showing the most relevant matches
 - Fully functional playlist creation and management with ability to export/import playlists as M3U
 - Setting to restore queue and actively playing song from last close on app open
 - Setting to automatically resume/play restored song on app open if this setting is enabled
+- Metadata editor
+- Last.fm integration for art and descriptions
+- Discord Rich Presence with Last.fm album art
 
 ## Planned Features (WIP)
 
@@ -52,7 +54,6 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - Ability to minimize left sidebar
 - Customizable home page and sidebar layouts
 - Minimize-to-system-tray support
-- Media controls in the notification area
 - Media buttons in the application window preview on hover
 - An option to respect the Windows light/dark theme when scheduling automatic theme changes, unless a custom or dynamic theme is activated
 - An option to launch the application at system startup
@@ -63,14 +64,12 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - Custom HTML/CSS embeds
 - Equalizer button to open Peace Equalizer/Equalizer APO window
 - Automixes based on your listening habits and genre tags
-- Metadata editor
 - Lyric editor with powerful synchronized and karaoke lyric tools
 - MusicBrainz release-type support for albums, EPs, singles, and more
-- A "Featured on" section on artist pages for songs featuring the artist where the associated album is not tagged with the artist as an album artist
 - Setting to hide "- Single" and "- EP" from album names if written into album metadata
 - Ability to capture the current queue and save it as a playlist
 - Ability to choose custom playlist image from file
-- ListenBrainz & Last.fm integration
+- ListenBrainz
 - Listening stats
 - About/credits page
 
