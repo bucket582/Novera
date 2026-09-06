@@ -9,12 +9,25 @@
 >
 <sub> No generative AI was used when writing this note. </sub>
 
+<div align="center">
+
 # Novera
+
+</div>
 A lightweight, customizable offline music player for Windows, built with Electron and powered by Chromium’s audio engine. It is designed to provide a modern, flexible alternative to traditional desktop music players while retaining support for advanced customization.
 
 Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M4A, WAV, AAC, and more. It also supports embedded and LRC-based plain-text, synchronized, and word-level karaoke lyrics.
 
+<img src="Screenshot 2026-09-06 111134.png" alt="Early Development Screenshot">
+<img src="Screenshot 2026-09-06 112510.png" alt="Early Development Screenshot">
+
 > Novera is currently in early development and does not yet have a downloadable build ready. Some icons, visuals, and features are still being refined (see below for list).
+
+<div align="center">
+
+## ✅ - Completed    ⌛ - In progress    ❌ - Not started, only planned
+
+</div>
 
 ## Functional features
 
@@ -26,9 +39,9 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - ✅ Automatic album and artist artwork importing from folders
 - ✅ Customizable artist and genre separators
 - ✅ Writable artist descriptions
-- ✅ Custom-mappable keyboard shortcuts
+- ✅ Remappable keyboard shortcuts for large majority of functions
 - ✅ Toggle to keep the screen awake while app is in focus
-- ✅ Toggleable "smart search" function that adds autocomplete to search, and a top-results section showing the most relevant matches
+- ✅ **Smart search** that adds autocomplete to search, and a top-results section showing the most relevant matches
 - ✅ Fully functional playlist creation and management with ability to export/import playlists as M3U
 - ✅ Setting to restore queue and actively playing song from last close on app open
 - ✅ Setting to automatically resume/play restored song on app open if this setting is enabled
@@ -36,14 +49,17 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - ✅ Last.fm integration for art and descriptions
 - ✅ Discord Rich Presence with Last.fm album art
 - ✅ Customizable home page and sidebar layouts
-- ✅ Optional right-hand sidebar with media controls like Spotify
+- ✅ Optional right-hand sidebar with media controls like Spotify with added **miniview** function: Switch between viewing the actively playing artists, active song's album view, queue, and lyrics, all in one small tab switcher 
+- ✅ Gapless playback support
+- ✅ Two styles for displaying artists in both the miniview and regular pages
 - ✅ MusicBrainz release-type support for albums, EPs, singles, and more
+- ✅ Optional "Up Next" toast with customizable time length
 
 ## Planned Features (WIP)
 
 - ⌛ A couple colorful custom theme presets
 - ❌ Custom background images for custom themes
-- ❌ Ability to import and export custom themes, with shared community themes accessible to import through linked Discord Server
+- ⌛ Ability to import and export custom themes, with shared community themes accessible to import through linked Discord Server
 - ⌛ Further theme customization options
 - ❌ Ability to use custom icon packs as part of custom themes
 - ❌ Album-art blur theme
