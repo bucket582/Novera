@@ -16,7 +16,7 @@
 </div>
 A lightweight, customizable offline music player for Windows, built with Electron and powered by Chromium’s audio engine. It is designed to provide a modern, flexible alternative to traditional desktop music players while retaining support for advanced customization.
 
-Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M4A, WAV, AAC, and more. It also supports embedded and LRC-based plain-text, synchronized, and word-level karaoke lyrics.
+Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M4A, WAV, AAC, and more. It also supports embedded and LRC-based plain-text, synchronized, and word-level TTML lyrics.
 
 <img src="Screenshot 2026-09-13 130742.png" alt="Early Development Screenshot">
 <img src="Screenshot 2026-09-13 131228.png" alt="Early Development Screenshot">
@@ -34,6 +34,7 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 ## Functional features
 
 - ✅ Audio file playback with support for importing multiple directories for music library
+- ✅ Support for embedded lyrics and LRC files with plain-text, synchronized, and TTML lyrics
 - ✅ Togglable synced-lyric display in now playing bar for active line
 - ✅ Four built-in themes: Light, Dark, Black / AMOLED, and Dynamic (changes colors to match album art)
 - ✅ Ability to customize built-in themes with custom RGB colors, and custom fonts
@@ -66,29 +67,24 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - ⌛ Further UI polish and visual tweaks
 - ⌛ Media buttons in the application window preview on hover
 - ❌ Setting to allow multiple columns of songs in a list to be more compact when possible
-- ❌ Move play button on song list to album art and make track number visibility persistent
 - ❌ Allow horizontal scrolling on release lists to see more without hitting “see all”
 - ❌ Synced lyrics display options: remove glow, remove slide highlight animation, and remove highlight color
 - ❌ Prettier synced lyrics
-- ❌ TTML synced lyrics support
-- ❌ Upload artist logo to replace default text on artist view, Apple Music-style
 - ❌ AMLL-dialect background-vocal lines
 - ❌ Enhanced control over the parameters of what/where shuffle being on shuffles and what it does not
 - ❌ Support for multiple lyric files, embedded vs. LRC, and lyric translations/languages
 - ❌ Setting to mark music symbols in synced lyrics as blank spaces to convert into an in-app three-dots animation when an instrumental is playing
-- ❌ “Select all” button for selecting multiple songs so you can select from one section immediately
-- ❌ More tidy settings page, with items grouped into submenus
+- ❌ “Select all” button when selecting multiple songs so you can select from one section immediately
 - ❌ Custom background images for custom themes
 - ❌ Ability to use custom icon packs as part of custom themes
 - ❌ Fullscreen player view
 - ❌ YouTube Music-style maximized player view
 - ❌ Pop-out now-playing window
-- ❌ Visualizer support with customizable theming
+- ❌ Visualizer support with style customization
 - ❌ Resizable player panels and sidebar
 - ❌ Ability to collapse/minimize the left sidebar
-- ❌ Minimize-to-system-tray support
+- ❌ Close to system-tray support
 - ❌ An option to respect the Windows light/dark theme when scheduling automatic theme changes, unless a custom or dynamic theme is activated
-- ❌ Replace all default Windows hover-text popups with in-app-styled ones
 - ❌ An option to launch the application at system startup
 - ❌ Ability to export/import app settings
 - ❌ Music video support
@@ -104,7 +100,6 @@ Novera supports a wide range of audio formats, including FLAC, Opus, MP3, OGG, M
 - ❌ Ability to capture the current queue and save it as a playlist
 - ❌ Ability to choose a custom playlist image from a file
 - ❌ ListenBrainz support
-- ❌ Track 0 support, throwing a song at the end of the list with last numbering
 - ❌ Optional ability to hide track 0 so you have to go back through track 1, like on CD players
 - ❌ “[silence]” track support
 - ❌ Sorting besides alphabetically by artist when “respect album artist” is checked
